@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @iptable_log.user_id %>
+</p>
+
+<p>
+  <strong>User data:</strong>
+  <%= @iptable_log.user_data %>
+</p>
+
+<%= link_to 'Edit', edit_iptable_log_path(@iptable_log) %> |
+<%= link_to 'Back', iptable_logs_path %>

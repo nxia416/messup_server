@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @tcpdump_log.user_id %>
+</p>
+
+<p>
+  <strong>User data:</strong>
+  <%= @tcpdump_log.user_data %>
+</p>
+
+<%= link_to 'Edit', edit_tcpdump_log_path(@tcpdump_log) %> |
+<%= link_to 'Back', tcpdump_logs_path %>

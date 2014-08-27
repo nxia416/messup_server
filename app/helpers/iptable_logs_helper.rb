@@ -1,0 +1,2 @@
+module IptableLogsHelper
+end
